@@ -1,4 +1,4 @@
-.chip-filter-thin-1, .chip-filter-thin-2, .chip-filter-thin-3, .chip-filter-thin-4 {
+.chip-filter-thin-1, .chip-filter-thin-2, .chip-filter-thin-3, .chip-filter-thin-4, .chip-filter-thin-5 {
     box-sizing: border-box;
 }
 
@@ -77,7 +77,24 @@
     margin-bottom: 20px;
 }
 
-
+.chip-filter-thin-5 {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: var(--primary-grey-700, #121f3e);
+    border-width: 4px;
+    padding: 6px 10px 6px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 130px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
 
 .btn-arr-thin-2 {
     flex-shrink: 0;
