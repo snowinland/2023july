@@ -1,55 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
+.chip-filter-thin-1, .chip-filter-thin-2, .chip-filter-thin-3, .chip-filter-thin-4 {
+    box-sizing: border-box;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./chipstyle.css">
+.chip-filter-thin-1 {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: var(--primary-grey-700, #121f3e);
+    border-width: 0.5px;
+    padding: 6px 10px 6px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 130px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.chip-filter-thin-2 {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: var(--primary-grey-700, #121f3e);
+    border-width: 1px;
+    padding: 6px 10px 6px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 130px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
 
-  <title>Document</title>
-</head>
+.chip-filter-thin-3 {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: var(--primary-grey-700, #121f3e);
+    border-width: 2px;
+    padding: 6px 10px 6px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 130px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
 
-<body>
-  <!-- props: {"property1":{"type":"VARIANT","defaultValue":"'down-line-desel'","variantOptions":["down_line_desel","up_line_desel","down_sel","up_sel","down_line_sel","up_line_sel"]}} -->
-  <div class="chip-filter-thin-1">
-    <svg class="btn-arr-thin-2" width="16" height="16" viewBox="0 0 16 16" fill="none"
-      xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M13.6082 10.0635C13.2418 10.3994 12.6725 10.3746 12.3366 10.0082L8.60002 5.93198L4.86346 10.0082C4.52758 10.3746 3.95827 10.3994 3.59187 10.0635C3.22546 9.72764 3.20071 9.15833 3.53658 8.79192L7.93658 3.99192C8.10705 3.80595 8.34774 3.70007 8.60002 3.70007C8.85229 3.70007 9.09299 3.80595 9.26346 3.99192L13.6635 8.79192C13.9993 9.15833 13.9746 9.72764 13.6082 10.0635Z"
-        fill="#121F3E" />
-    </svg>
-    <div class="">출고일별1</div>
-  </div>
+.chip-filter-thin-4 {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: var(--primary-grey-700, #121f3e);
+    border-width: 3px;
+    padding: 6px 10px 6px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 130px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
 
-  <div class="chip-filter-thin-2">
-    <svg class="btn-arr-thin-2" width="16" height="16" viewBox="0 0 16 16" fill="none"
-      xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M13.6082 10.0635C13.2418 10.3994 12.6725 10.3746 12.3366 10.0082L8.60002 5.93198L4.86346 10.0082C4.52758 10.3746 3.95827 10.3994 3.59187 10.0635C3.22546 9.72764 3.20071 9.15833 3.53658 8.79192L7.93658 3.99192C8.10705 3.80595 8.34774 3.70007 8.60002 3.70007C8.85229 3.70007 9.09299 3.80595 9.26346 3.99192L13.6635 8.79192C13.9993 9.15833 13.9746 9.72764 13.6082 10.0635Z"
-        fill="#121F3E" />
-    </svg>
-    <div class="">출고일별2</div>
-  </div>
 
-  <div class="chip-filter-thin-3">
-    <svg class="btn-arr-thin-2" width="16" height="16" viewBox="0 0 16 16" fill="none"
-      xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M13.6082 10.0635C13.2418 10.3994 12.6725 10.3746 12.3366 10.0082L8.60002 5.93198L4.86346 10.0082C4.52758 10.3746 3.95827 10.3994 3.59187 10.0635C3.22546 9.72764 3.20071 9.15833 3.53658 8.79192L7.93658 3.99192C8.10705 3.80595 8.34774 3.70007 8.60002 3.70007C8.85229 3.70007 9.09299 3.80595 9.26346 3.99192L13.6635 8.79192C13.9993 9.15833 13.9746 9.72764 13.6082 10.0635Z"
-        fill="#121F3E" />
-    </svg>
-    <div class="">출고일별2</div>
-  </div>
 
-  <div class="chip-filter-thin-4">
-    <svg class="btn-arr-thin-2" width="16" height="16" viewBox="0 0 16 16" fill="none"
-      xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M13.6082 10.0635C13.2418 10.3994 12.6725 10.3746 12.3366 10.0082L8.60002 5.93198L4.86346 10.0082C4.52758 10.3746 3.95827 10.3994 3.59187 10.0635C3.22546 9.72764 3.20071 9.15833 3.53658 8.79192L7.93658 3.99192C8.10705 3.80595 8.34774 3.70007 8.60002 3.70007C8.85229 3.70007 9.09299 3.80595 9.26346 3.99192L13.6635 8.79192C13.9993 9.15833 13.9746 9.72764 13.6082 10.0635Z"
-        fill="#121F3E" />
-    </svg>
-    <div class="">출고일별2</div>
-  </div>
-</body>
-</html>
+.btn-arr-thin-2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+. {
+    color: var(--primary-grey-700, #121f3e);
+    text-align: left;
+    font: var(--body-text-medium-regular, 400 14px/22px 'Spoqa Han Sans Neo', sans-serif);
+    position: relative;
+}
+
+
