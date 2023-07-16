@@ -7,15 +7,16 @@
     border-radius: 100px;
     border-style: solid;
     border-color: var(--primary-grey-700, #121f3e);
-    border-width: 1px;
+    border-width: 0.5px;
     padding: 6px 10px 6px 10px;
     display: flex;
     flex-direction: row;
-    gap: 2px;
+    gap: 4px;
     align-items: center;
     justify-content: flex-start;
     flex-shrink: 0;
-    height: 36px;
+    width: 180px;
+    height: 48px;
     position: relative;
     overflow: hidden;
 }
