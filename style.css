@@ -1,0 +1,34 @@
+.chip-filter-thin-2,
+.chip-filter-thin-2 * {
+    box-sizing: border-box;
+}
+
+.chip-filter-thin-2 {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: var(--primary-grey-700, #121f3e);
+    border-width: 1px;
+    padding: 6px 10px 6px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 36px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-arr-thin-2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+. {
+    color: var(--primary-grey-700, #121f3e);
+    text-align: left;
+    font: var(--body-text-medium-regular, 400 14px/22px 'Spoqa Han Sans Neo', sans-serif);
+    position: relative;
+}
